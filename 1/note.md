@@ -17,7 +17,7 @@ Recall:
    1. Camera on origin, look at -Z.
    2. Rotate around any axis. Rodrigues’ Rotation Formula.
 4. Projection: orthographic(正交) projection, perspective(透视) projection.
-   1. Orthographic projection: make all point in [-1,1]^3.
+   1. Orthographic projection: make all points in [-1,1]^3.
    2. Perspective projection: covert to orthographic projection.
       1. Near plane point's coordinate don't change, as do those on far plane.
 5. Field-of-view: angle. Aspect ratio: width/height.
