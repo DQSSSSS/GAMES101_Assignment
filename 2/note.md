@@ -21,8 +21,18 @@ PPT: 5-7
 
 ## Code:
 
+Adaptive any N, change it at **rasterizer.hpp** line 102.
+
 Z-buffer:
 
-
+![image](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/naive.png?raw=true)
 
 MSAA:
+
+N=2
+
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/MSAA2.png?raw=true)
+
+N=3
+
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/MSAA3.png?raw=true)
