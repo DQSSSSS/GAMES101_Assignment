@@ -61,9 +61,9 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
                    0, 0, 0, 1;
 
     Eigen::Matrix4f zoom;
-    zoom << 2/(r-l+eps), 0, 0, 0,
-            0, 2/(t-b+eps), 0, 0,
-            0, 0, 2/(n-f+eps), 0,
+    zoom << 2/(r-l), 0, 0, 0,
+            0, 2/(t-b), 0, 0,
+            0, 0, 2/(n-f), 0,
             0, 0, 0, 1;
 
     Eigen::Matrix4f o = zoom * translation;
