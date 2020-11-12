@@ -21,7 +21,7 @@ PPT: 5-7
 
 ## Code:
 
-Adaptive any N, change it at **rasterizer.hpp** line 102.
+Adaptive any N, change it in **rasterizer.hpp** line 102.
 
 Z-buffer:
 
