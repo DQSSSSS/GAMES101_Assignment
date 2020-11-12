@@ -1,15 +1,15 @@
 # Assignment 1
 
-Task: 
+## Task: 
 
 1. **[MUST]** Given three 3D points, fill transformation matrices and then make points show on screen. 
 2. **[OPTIONAL]** Rotate points around any axis through origin.
 
-Key words: Transformation, rasterization. 
+**Key words**: Transformation, rasterization. 
 
 PPT: 3-5.
 
-Recall:
+## Recall:
 
 1. MVP transformation: Model, view, projection.
 2. Derivation of rotation formula: use (r, theta).

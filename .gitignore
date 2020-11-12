@@ -2,4 +2,5 @@
 !*.hpp
 !*.md
 !CMakeLists.txt
+!*.png
 */build
