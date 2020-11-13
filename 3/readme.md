@@ -6,7 +6,7 @@ Implement: interpolation, Blinn-Phong reflectance model.
 
 **Key words**: Shading, Blinn-Phong Reflectance Model, texture mapping.
 
-PPT: 7-9
+PPT: 7-10
 
 ## Recall:
 
@@ -30,8 +30,14 @@ PPT: 7-9
       1. Insufficient texture resolution. Blur.
       2. Otherwise. Sampling on large range. Moire(摩尔纹). 
          1. Data structure for range queries. Mipmap(square). Anisotropic Filtering.
-
-
+   3. Applications
+      1. Environment lighting. Map.
+      2. Microgeometry. 
+         1. Bump shading: Perturb normal by gradient decent. Fake detail geometry.
+         2. Displacement shading: Actually moves the vertices.
+      3. Procedural noise.
+      4. Precomputed shading.
+      5. 3D textures, volume rendering.
 
 ## Code:
 
