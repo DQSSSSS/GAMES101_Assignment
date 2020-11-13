@@ -35,5 +35,30 @@ PPT: 7-9
 
 ## Code:
 
+More images in "images/“.
+
+normal  shader: 
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/spot/normal.png?raw=true)
+
+phong shader: 
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/spot/phong.png?raw=true)
+
+texture shader: 
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/spot/texture.png?raw=true)
+
+bump shader: 
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/spot/bump.png?raw=true)
+
+displacement shader: 
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/spot/displacement.png?raw=true)
 
 
+no interpolate:
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/texture-noitplt.png?raw=true)
+
+bilinear interpolate:
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/dev/3/images/texture-2itplt.png?raw=true)
+
+
+
+I don't why the texture is translation.
