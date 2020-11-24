@@ -6,7 +6,7 @@ Implement Whitted-Style ray tracing.
 
 **Key words**: Whitted-Style ray tracing 
 
-PPT: 13-
+PPT: 13
 
 ## Recall:
 
