@@ -1,6 +1,6 @@
 # GAMES101_Assignment
 
-Current assignment progress: 5/8
+Current assignment progress: 6/8
 
 Mainpage: https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html
 
