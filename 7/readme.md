@@ -26,7 +26,7 @@ PPT: 14-17
 4. Rendering Equation (add emission term)
 5. Monte Carlo Path Tracing
    1. Monte Carlo Integration. https://zhuanlan.zhihu.com/p/146144853.
-   2. Solve Integration.![shade-func](C:\Users\10531\data\Documents\Research\course\games101\hw_on_github\GAMES101_Assignment\7\images\shade-func.png)
+   2. Solve Integration.![shade-func](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/shade-func.png?raw=true)
 6. BRDF (Material)
    1. Diffuse, Glossy, Ideal reflective/refractive
    2. Fresnel Reflection/Term (菲涅尔项). Different grazing angle, different reflectance. 
@@ -50,10 +50,10 @@ PPT: 14-17
 
 **Problem of Framework**: Random generator should be static, Sphere's getIntersection should consider the precision.
 
-![shade-exp](C:\Users\10531\data\Documents\Research\course\games101\hw_on_github\GAMES101_Assignment\7\images\shade-exp.png)
+![shade-exp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/shade-exp.png?raw=true)
 
-![shade-exp](C:\Users\10531\data\Documents\Research\course\games101\hw_on_github\GAMES101_Assignment\7\images\256-spp.ppm)
+![shade-exp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/256-spp.ppm?raw=true)
 
 
 
-![shade-exp](C:\Users\10531\data\Documents\Research\course\games101\hw_on_github\GAMES101_Assignment\7\images\256-spp-microfacet.ppm)
+![shade-exp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/256-spp-microfacet.ppm?raw=true)
