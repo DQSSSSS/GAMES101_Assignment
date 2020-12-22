@@ -52,8 +52,12 @@ PPT: 14-17
 
 ![shade-exp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/shade-exp.png?raw=true)
 
-![shade-exp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/256-spp.ppm?raw=true)
 
 
+![256-spp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/256-spp.png?raw=true)
 
-![shade-exp](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/256-spp-microfacet.ppm?raw=true)
+Multi-threading: 256spp, 120s.
+
+Microfacet:
+
+![256-spp-microfacet](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/7/images/256-spp-microfacet.png?raw=true)
