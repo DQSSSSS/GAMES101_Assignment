@@ -27,12 +27,12 @@ Z-buffer:
 
 ![image](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/naive.png?raw=true)
 
-MSAA:
+SSAA:
 
 N=2
 
-![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/MSAA2.png?raw=true)
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/SSAA2.png?raw=true)
 
 N=3
 
-![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/MSAA3.png?raw=true)
+![img](https://github.com/DQSSSSS/GAMES101_Assignment/blob/master/2/md_image/SSAA3.png?raw=true)
