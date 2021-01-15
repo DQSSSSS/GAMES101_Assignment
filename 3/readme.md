@@ -67,4 +67,5 @@ bilinear interpolate:
 
 
 
-I don't why the texture is translation.
+I don't know why the texture is translation.
+
