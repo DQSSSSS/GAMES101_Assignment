@@ -282,7 +282,7 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
                 float zp = alpha * v[0].z() / v[0].w() + beta * v[1].z() / v[1].w() + gamma * v[2].z() / v[2].w();
                 zp *= Z;
 
-                if(depth_buf[get_index(x,y)] > zp) {
+                if(depth_buf[get_index(x,y)] < zp) {
                     depth_buf[get_index(x,y)] = zp;
 
                     auto interpolated_color = alpha * t.color[0] + beta * t.color[1] + gamma * t.color[2];
@@ -341,7 +341,7 @@ void rst::rasterizer::clear(rst::Buffers buff)
     }
     if ((buff & rst::Buffers::Depth) == rst::Buffers::Depth)
     {
-        std::fill(depth_buf.begin(), depth_buf.end(), std::numeric_limits<float>::infinity());
+        std::fill(depth_buf.begin(), depth_buf.end(), -std::numeric_limits<float>::infinity());
     }
 }
 

@@ -208,7 +208,7 @@ void rst::rasterizer::clear(rst::Buffers buff)
         std::fill(depth_buf.begin(), depth_buf.end(), std::numeric_limits<float>::infinity());
         for(int i = 0;i < width * height; i ++) {
             for(int j = 0;j < N*N;j ++) {
-                depColor[i][j].first = std::numeric_limits<float>::infinity();
+                depColor[i][j].first = -std::numeric_limits<float>::infinity();
             }
         }
     }
