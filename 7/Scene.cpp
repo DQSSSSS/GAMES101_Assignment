@@ -67,8 +67,11 @@ Vector3f Scene::castRay(const Ray &ray, int depth) const
     
     if(!intersection.happened)
         return Vector3f(0, 0, 0); 
-    if(depth == 0 && intersection.emit.norm()>0) {
-        return intersection.emit;
+    if(intersection.emit.norm()>0) {
+        if(depth == 0)
+            return intersection.emit;
+        else
+            return Vector3f(0, 0, 0);
     }
 
     Vector3f& p = intersection.coords;

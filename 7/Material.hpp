@@ -225,11 +225,26 @@ Vector3f Material::eval(const Vector3f &wi, const Vector3f &wo, const Vector3f &
                 return Vector3f(0.0f);
             break;
         }
-        case MICROFACET_DIFFUSE: case MICROFACET_GLOSSY:
+        case MICROFACET_DIFFUSE: 
         {
             float cosalpha = dotProduct(N, wo);
             if (cosalpha > 0.0f) {
                 auto ans = Ks * cookTorrance(wi, wo, N) + Kd * eval_diffuse(wi, wo, N);
+              //  clamp(0, 1, ans.x); clamp(0, 1, ans.y); clamp(0, 1, ans.z);
+                return ans;
+            }
+            else
+                return Vector3f(0.0f);
+            break;
+        }
+        case MICROFACET_GLOSSY:
+        {
+            float cosalpha = dotProduct(N, wo);
+            if (cosalpha > 0.0f) {
+                double p = 25;
+                auto h = normalize(wi + wo);
+                double spec = pow(std::max(0.0f, dotProduct(N, h)), p);
+                auto ans = Ks * spec + Kd * eval_diffuse(wi, wo, N);
               //  clamp(0, 1, ans.x); clamp(0, 1, ans.y); clamp(0, 1, ans.z);
                 return ans;
             }

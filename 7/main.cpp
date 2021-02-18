@@ -54,11 +54,11 @@ int main(int argc, char** argv)
 
     scene.Add(&floor);
 
-    // scene.Add(&shortbox);
-    // scene.Add(&tallbox);
+    //scene.Add(&shortbox);
+    //scene.Add(&tallbox);
 
-    scene.Add(&sphere1);
-    scene.Add(&sphere2);
+     scene.Add(&sphere1);
+     scene.Add(&sphere2);
 
     scene.Add(&left);
     scene.Add(&right);
