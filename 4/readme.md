@@ -46,3 +46,4 @@ Antialiasing, two methods:
 
 1. $\sum_i 255 \times \max(2-\exp(dist_i), 0)$
 2. For 2*2 grids, $f_{i,j} = 255\times(\lfloor x+1-i\rfloor-x)(\lfloor y+1-j\rfloor-y)$ for each $i = 0,1,j = 0,1$ .
+
